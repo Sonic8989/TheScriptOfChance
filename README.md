@@ -16,24 +16,22 @@ Feel free to record and react to the script (if you wish), as the script does so
 
 # TheScriptOfChance 1.0 Parameters:
 - Note: Without a parameter runs with `` -ND`` (Non destructive).
-
-- -ND: Non destructive, safe to run on main! (However could BSOD or reboot but should recover).
-- -NDnr: Non destructive, however it won't reboot or BSOD!
-- -NDna: Non destructive, however does not open random apps (Since there's a lot in this script!)
-- -SD: Semi Destructive, may damage your system! (Have a system restore point or VM snapshot!)
-- -SDna: Semi Destructive, however no random apps!
-- -FD: Fully Destructive, may NOT be able to recover and may need to reinstall Windows or restore VM snapshot!
-- -FDna: Fully Destructive, however no random apps!
+- ``-ND``: Non destructive, safe to run on main! (However could BSOD or reboot but should recover).
+- ``-NDnr``: Non destructive, however it won't reboot or BSOD!
+- ``-NDna``: Non destructive, however does not open random apps (Since there's a lot in this script!)
+- ``-SD``: Semi Destructive, may damage your system! (Have a system restore point or VM snapshot!)
+- ``-SDna``: Semi Destructive, however no random apps!
+- ``-FD``: Fully Destructive, may NOT be able to recover and may need to reinstall Windows or restore VM snapshot!
+- ``-FDna``: Fully Destructive, however no random apps!
 
 # TheScriptOfChance 2.0 Parameters:
 - Note: Without a parameter runs with ``-SafeMode``.
-
-- -SafeMode: Only safe commands are ran, safe to run on main, no commands will disrupt your work!
-- -Unsafe: Runs commands that could potentially be unsafe only! Note not every command is unsafe, but could be unwanted.
-- -SemiUnsafe: Combines SafeMode and Unsafe parameters, no Deathwish commands!
-- -VeryUnsafe: Runs commands that could potentially be unsafe, plus DeathWish commands (Very bad!)
-- -DeathWish: Bye bye Windows Installation (high chance!)
-- -All: Every command in this script is an option, Run with caution!
+- ``-SafeMode``: Only safe commands are ran, safe to run on main, no commands will disrupt your work!
+- ``-Unsafe``: Runs commands that could potentially be unsafe only! Note not every command is unsafe, but could be unwanted.
+- ``-SemiUnsafe``: Combines SafeMode and Unsafe parameters, no Deathwish commands!
+- ``-VeryUnsafe``: Runs commands that could potentially be unsafe, plus DeathWish commands (Very bad!)
+- ``-DeathWish``: Bye bye Windows Installation (high chance!)
+- ``-All``: Every command in this script is an option, Run with caution!
 
 
 # Before running the script:
