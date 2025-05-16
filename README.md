@@ -31,9 +31,11 @@ Feel free to record and react to the script (if you wish), as the script does so
 - -DeathWish: Bye bye Windows Installation (high chance!)
 - -All: Every command in this script is an option, Run with caution!
 
+- Note: Without a parameter on any TSOC version will run the safe version (just in case someone makes a typo).
+
 # Before running the script:
 - Be sure to run ``Set-ExecutionPolicy Bypass -Force`` before the script (You only need to do this ONCE, however if you do not want to change your execution policy, you can run the script with this instead: ``powershell -ExecutionPolicy Bypass -File .\TSOC-2.ps1 -SafeMode``. Just provide the script name and parameter, and make sure your PowerShell window is in the SAME directory as the script! I gave an example for TSOC 2 safe mode, but you can change it to any of the parameters you wish!). 
-- If you did set the execution policy, then you type in ``.\TSOC-1`` or ``.\TSOC-2`` (along with a parameter, example: ``.\TSOC-2.ps1 -SafeMode``) and press enter to run. After that, you can press up arrow again to be able to pull up the same command to run it again (You can also do that with the other command if you did not set the policy).
+- If you did set the execution policy, then you type in ``.\TSOC-1.ps1`` or ``.\TSOC-2.ps1`` (along with a parameter, example: ``.\TSOC-2.ps1 -SafeMode``) and press enter to run. After that, you can press up arrow again to be able to pull up the same command to run it again (You can also do that with the other command if you did not set the policy).
 - For best results, put the script in the C drive to easily access it, then do ``cd \`` to go to the root of the C drive, then run the command! I always do this in virtual machines as it's faster.
 - For better results, run PowerShell as TrustedInstaller if running the destructive parameters (Winaero can do it under "Run as TrustedInstaller" or you can use AdvancedRun, which is what I use instead since I don't need to install another program for it). Note that some commands do not like being ran as TI and may fail.
 - NOTE: The script logs to the location of C:\Logs. These logs will say the commands that were executed, so you can check it later to see what it did! There may be additional logs in there, as some commands do create other logs. Some logs may also go to the desktop and/or temp folders on the system. More about the logs below.
