@@ -15,7 +15,7 @@ Feel free to record and react to the script (if you wish), as the script does so
 - There are 2 scripts, TheScriptOfChance 1.0 and TheScriptOfChance 2.0. TSOC 2.0 has lots of new commands in it, but some of the older ones were either reworked or removed. Some commands however are the same. TSOC 1.0 used to have 3 separate scripts, however I decided to restructure the script and add parameters, as it's more efficient that way.
 
 # TheScriptOfChance 1.0 Parameters:
-- Note: Without a parameter runs with ``-ND`` (Non destructive).
+Note: Without a parameter runs with ``-ND`` (Non destructive).
 - ``-ND``: Non destructive, safe to run on main! (However could BSOD or reboot but should recover).
 - ``-NDnr``: Non destructive, however it won't reboot or BSOD!
 - ``-NDna``: Non destructive, however does not open random apps (Since there's a lot in this script!)
@@ -25,7 +25,7 @@ Feel free to record and react to the script (if you wish), as the script does so
 - ``-FDna``: Fully Destructive, however no random apps!
 
 # TheScriptOfChance 2.0 Parameters:
-- Note: Without a parameter runs with ``-SafeMode``.
+Note: Without a parameter runs with ``-SafeMode``.
 - ``-SafeMode``: Only safe commands are ran, safe to run on main, no commands will disrupt your work!
 - ``-Unsafe``: Runs commands that could potentially be unsafe only! Note not every command is unsafe, but could be unwanted.
 - ``-SemiUnsafe``: Combines SafeMode and Unsafe parameters, no Deathwish commands!
@@ -48,8 +48,7 @@ As you know, it logs to C:\Logs, however here's what each log is used for:
 - TSOC2_Log: This is the PowerShell transcript. It logs everything about the PS session and what runs. It's a bit longer.
 - TSOC2_CMDLog: This logs the commands that were executed, and only the commands!
 - TSOC2: Some of the scripts in TSOC itself have their own logs, they get dumped in here.
-
-- NOTE: TSOC 1 will have similar logs, however some may be different. I am sure you can figure them out. Also, TSOC 1 is no longer being updated, and will continue to stay the same. TSOC 2 however will get updates, check back here for them!
+### NOTE: TSOC 1 will have similar logs, however some may be different compared to TSOC 2. Also, TSOC 1 is no longer being updated, and will continue to stay the same. TSOC 2 however will get updates, check back here for them!
 
 Also, 
 # PLEASE DO NOT RUN THE DESTRUCTIVE VERSIONS ON YOUR MAIN, IT CAN BE DESTUCTIVE!
