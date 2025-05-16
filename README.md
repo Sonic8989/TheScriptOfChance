@@ -15,7 +15,7 @@ Feel free to record and react to the script (if you wish), as the script does so
 - There are 2 scripts, TheScriptOfChance 1.0 and TheScriptOfChance 2.0. TSOC 2.0 has lots of new commands in it, but some of the older ones were either reworked or removed. Some commands however are the same. TSOC 1.0 used to have 3 separate scripts, however I decided to restructure the script and add parameters, as it's more efficient that way.
 
 # TheScriptOfChance 1.0 Parameters:
-- Note: Without a parameter runs with `` -ND`` (Non destructive).
+- Note: Without a parameter runs with ``-ND`` (Non destructive).
 - ``-ND``: Non destructive, safe to run on main! (However could BSOD or reboot but should recover).
 - ``-NDnr``: Non destructive, however it won't reboot or BSOD!
 - ``-NDna``: Non destructive, however does not open random apps (Since there's a lot in this script!)
