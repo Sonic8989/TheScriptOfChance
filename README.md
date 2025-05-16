@@ -15,6 +15,8 @@ Feel free to record and react to the script (if you wish), as the script does so
 - There are 2 scripts, TheScriptOfChance 1.0 and TheScriptOfChance 2.0. TSOC 2.0 has lots of new commands in it, but some of the older ones were either reworked or removed. Some commands however are the same. TSOC 1.0 used to have 3 separate scripts, however I decided to restructure the script and add parameters, as it's more efficient that way.
 
 # TheScriptOfChance 1.0 Parameters:
+- Note: Without a parameter runs with `` -ND`` (Non destructive).
+
 - -ND: Non destructive, safe to run on main! (However could BSOD or reboot but should recover).
 - -NDnr: Non destructive, however it won't reboot or BSOD!
 - -NDna: Non destructive, however does not open random apps (Since there's a lot in this script!)
@@ -24,6 +26,8 @@ Feel free to record and react to the script (if you wish), as the script does so
 - -FDna: Fully Destructive, however no random apps!
 
 # TheScriptOfChance 2.0 Parameters:
+- Note: Without a parameter runs with ``-SafeMode``.
+
 - -SafeMode: Only safe commands are ran, safe to run on main, no commands will disrupt your work!
 - -Unsafe: Runs commands that could potentially be unsafe only! Note not every command is unsafe, but could be unwanted.
 - -SemiUnsafe: Combines SafeMode and Unsafe parameters, no Deathwish commands!
@@ -31,7 +35,6 @@ Feel free to record and react to the script (if you wish), as the script does so
 - -DeathWish: Bye bye Windows Installation (high chance!)
 - -All: Every command in this script is an option, Run with caution!
 
-- Note: Without a parameter on any TSOC version will run the safe version (just in case someone makes a typo).
 
 # Before running the script:
 - Be sure to run ``Set-ExecutionPolicy Bypass -Force`` before the script (You only need to do this ONCE, however if you do not want to change your execution policy, you can run the script with this instead: ``powershell -ExecutionPolicy Bypass -File .\TSOC-2.ps1 -SafeMode``. Just provide the script name and parameter, and make sure your PowerShell window is in the SAME directory as the script! I gave an example for TSOC 2 safe mode, but you can change it to any of the parameters you wish!). 
