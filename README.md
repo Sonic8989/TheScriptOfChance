@@ -1,4 +1,4 @@
-# TheScriptOfChance 1.0 & 2.0 Remastered
+# TheScriptOfChance 1.0 & 2.0\2.5 Remastered
 
 # WARNING!
 
@@ -12,7 +12,7 @@ Feel free to record and react to the script (if you wish), as the script does so
 - The parameters are NOT case sensitive, meaning it won't matter if you type -SafeMode or -safemode for example.
 
 # TheScriptOfChance Versions:
-- There are 2 scripts, TheScriptOfChance 1.0 and TheScriptOfChance 2.0. TSOC 2.0 has lots of new commands in it, but some of the older ones were either reworked or removed. Some commands however are the same. TSOC 1.0 used to have 3 separate scripts, however I decided to restructure the script and add parameters, as it's more efficient that way.
+- There are 3 scripts, TheScriptOfChance 1.0, TheScriptOfChance 2.0, and TheScriptOfChance 2.5. TSOC 2.0\2.5 has lots of new commands in it, but some of the older ones were either reworked or removed. Some commands however are the same. TSOC 1.0 used to have 3 separate scripts, however I decided to restructure the script and add parameters, as it's more efficient that way.
 
 # TheScriptOfChance 1.0 Parameters:
 Note: Without a parameter runs with ``-ND`` (Non destructive).
@@ -24,7 +24,7 @@ Note: Without a parameter runs with ``-ND`` (Non destructive).
 - ``-FD``: Fully Destructive, may NOT be able to recover and may need to reinstall Windows or restore VM snapshot!
 - ``-FDna``: Fully Destructive, however no random apps!
 
-# TheScriptOfChance 2.0 Parameters:
+# TheScriptOfChance 2.0\2.5 Parameters:
 Note: Without a parameter runs with ``-SafeMode``.
 - ``-SafeMode``: Only safe commands are ran, safe to run on main, no commands will disrupt your work!
 - ``-Unsafe``: Runs commands that could potentially be unsafe only! Note not every command is unsafe, but could be unwanted.
@@ -36,19 +36,21 @@ Note: Without a parameter runs with ``-SafeMode``.
 
 # Before running the script:
 - Be sure to run ``Set-ExecutionPolicy Bypass -Force`` before the script (You only need to do this ONCE, however if you do not want to change your execution policy, you can run the script with this instead: ``powershell -ExecutionPolicy Bypass -File .\TSOC-2.ps1 -SafeMode``. Just provide the script name and parameter, and make sure your PowerShell window is in the SAME directory as the script! I gave an example for TSOC 2 safe mode, but you can change it to any of the parameters you wish!). 
-- If you did set the execution policy, then you type in ``.\TSOC-1.ps1`` or ``.\TSOC-2.ps1`` (along with a parameter, example: ``.\TSOC-2.ps1 -SafeMode``) and press enter to run. After that, you can press up arrow again to be able to pull up the same command to run it again (You can also do that with the other command if you did not set the policy).
+- If you did set the execution policy, then you type in ``.\TSOC-1.ps1``, ``.\TSOC-2.ps1``, or ``.\TSOC-2.5.ps1`` (along with a parameter, example: ``.\TSOC-2.5.ps1 -SafeMode``) and press enter to run. After that, you can press up arrow again to be able to pull up the same command to run it again (You can also do that with the other command if you did not set the policy).
 - For best results, put the script in the C drive to easily access it, then do ``cd \`` to go to the root of the C drive, then run the command! I always do this in virtual machines as it's faster.
 - For better results, run PowerShell as TrustedInstaller if running the destructive parameters (Winaero can do it under "Run as TrustedInstaller" or you can use AdvancedRun, which is what I use instead since I don't need to install another program for it). Note that some commands do not like being ran as TI and may fail.
 - NOTE: The script logs to the location of C:\Logs. These logs will say the commands that were executed, so you can check it later to see what it did! There may be additional logs in there, as some commands do create other logs. Some logs may also go to the desktop and/or temp folders on the system. More about the logs below.
 - Another note: some commands take longer to execute, so if it's blinking, give it time! Also be sure you didn't accidentally select in the PowerShell window, as that pauses it! If you did, right click and it should unpause!
-- If you have any questions, feel free to ask me! I am glad to answer any questions! If you have any command suggestions, tell me them as I could implement them into TSOC 2!
+- If you have any questions, feel free to ask me! I am glad to answer any questions! If you have any command suggestions, tell me them as I could implement them into TSOC 2\2.5!
 
 # The logging system:
 As you know, it logs to C:\Logs, however here's what each log is used for:
-- TSOC2_Log: This is the PowerShell transcript. It logs everything about the PS session and what runs. It's a bit longer.
-- TSOC2_CMDLog: This logs the commands that were executed, and only the commands!
-- TSOC2: Some of the scripts in TSOC itself have their own logs, they get dumped in here.
-### NOTE: TSOC 1 will have similar logs, however some may be different compared to TSOC 2. Also, TSOC 1 is no longer being updated, and will continue to stay the same. TSOC 2 however will get updates, check back here for them!
+- TSOC_2.5_Log: This is the PowerShell transcript. It logs everything about the PS session and what runs. It's a bit longer.
+- TSOC_2.5_CMDLog: This logs the commands that were executed, and only the commands!
+- TSOC_2.5: Some of the scripts in TSOC itself have their own logs, they get dumped in here.
+
+Depending on what version of TSOC you run, the number may differ in the log name.
+### NOTE: TSOC 1 will have similar logs, however some may be different compared to TSOC 2 & 2.5. Also, TSOC 1 is no longer being updated, and will continue to stay the same. TSOC 2 however will get updates, like it did with the release of 2.5. check back here for them!
 
 Also, 
 # PLEASE DO NOT RUN THE DESTRUCTIVE VERSIONS ON YOUR MAIN, IT CAN BE DESTUCTIVE!
