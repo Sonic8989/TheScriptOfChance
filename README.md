@@ -1,4 +1,4 @@
-# TheScriptOfChance 1.0 & 2.0\2.5 Remastered
+# TheScriptOfChance 1.0 & 2.0\2.5 Remastered (Fork Edition) by Sonic89 Tech
 
 # WARNING!
 
@@ -31,6 +31,7 @@ Note: Without a parameter runs with ``-SafeMode``.
 - ``-SemiUnsafe``: Combines SafeMode and Unsafe parameters, no Deathwish commands!
 - ``-VeryUnsafe``: Runs commands that could potentially be unsafe, plus DeathWish commands (Very bad!)
 - ``-DeathWish``: Bye bye Windows Installation (high chance!)
+- ``-EgoDestroyer``: Destroyers your ego with these ego destroying roasts.
 - ``-All``: Every command in this script is an option, Run with caution!
 
 
