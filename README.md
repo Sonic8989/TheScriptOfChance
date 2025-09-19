@@ -32,6 +32,7 @@ Note: Without a parameter runs with ``-SafeMode``.
 - ``-VeryUnsafe``: Runs commands that could potentially be unsafe, plus DeathWish commands (Very bad!)
 - ``-DeathWish``: Bye bye Windows Installation (high chance!)
 - ``-EgoDestroyer``: Destroyers your ego with these ego destroying roasts.
+- ``-UselessWeb``: Website URLS that came from the useless web website.
 - ``-All``: Every command in this script is an option, Run with caution!
 
 
