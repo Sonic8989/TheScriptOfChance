@@ -1,5 +1,7 @@
 # TheScriptOfChance 1.0 & 2.0\2.5 Remastered (Fork Edition) by Sonic89 Tech
 
+New 2.5.2 Update YAY!!!
+
 # WARNING!
 
 I am NOT responsible for ANY damages done to your computer! Note that running the destructive parameters of the script MAY result in a broken Windows installation! The script does NOT delete any personal files, however it could damage system files and cause the system to stop booting into Windows completely. I recommend ONLY running the destructive parameters in a virtual environment, or on a spare system you don't care about whatsoever!
@@ -25,7 +27,8 @@ Note: Without a parameter runs with ``-ND`` (Non destructive).
 - ``-FDna``: Fully Destructive, however no random apps!
 
 # TheScriptOfChance 2.0\2.5 Parameters:
-Note: Without a parameter runs with ``-SafeMode``.
+Note: Without a parameter runs with ``-Snake`` (2.5.2 Only) Others run ``-SafeMode``.
+- ``-Snake``: Runs the snake Game YAY!!!
 - ``-SafeMode``: Only safe commands are ran, safe to run on main, no commands will disrupt your work!
 - ``-Unsafe``: Runs commands that could potentially be unsafe only! Note not every command is unsafe, but could be unwanted.
 - ``-SemiUnsafe``: Combines SafeMode and Unsafe parameters, no Deathwish commands!
