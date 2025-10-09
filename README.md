@@ -28,7 +28,7 @@ Note: Without a parameter runs with ``-ND`` (Non destructive).
 
 # TheScriptOfChance 2.0\2.5 Parameters:
 Note: Without a parameter runs with ``-Snake`` (2.5.2 Only) Others run ``-SafeMode``.
-- ``-Snake``: Runs the snake Game YAY!!!
+- ``-Snake``: Runs the snake Game YAY!!! (2.5.2 Only)
 - ``-SafeMode``: Only safe commands are ran, safe to run on main, no commands will disrupt your work!
 - ``-Unsafe``: Runs commands that could potentially be unsafe only! Note not every command is unsafe, but could be unwanted.
 - ``-SemiUnsafe``: Combines SafeMode and Unsafe parameters, no Deathwish commands!
