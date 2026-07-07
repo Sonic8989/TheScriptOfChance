@@ -14,7 +14,7 @@ Feel free to record and react to the script (if you wish), as the script does so
 - The parameters are NOT case sensitive, meaning it won't matter if you type -SafeMode or -safemode for example.
 
 # TheScriptOfChance Versions:
-- There are 3 scripts, TheScriptOfChance 1.0, TheScriptOfChance 2.0, and TheScriptOfChance 2.5. TSOC 2.0\2.5 has lots of new commands in it, but some of the older ones were either reworked or removed. Some commands however are the same. TSOC 1.0 used to have 3 separate scripts, however I decided to restructure the script and add parameters, as it's more efficient that way.
+- There are 3 scripts, TheScriptOfChance 1.0, TheScriptOfChance 2.0, TheScriptOfChance 2.5, and TheScriptOfChance 3.0. TSOC 3.0 has more new commands in it, but some of the older ones were either reworked or removed. Some commands however are the same. TSOC 1.0 used to have 3 separate scripts, however I decided to restructure the script and add parameters, as it's more efficient that way.
 
 # TheScriptOfChance 1.0 Parameters:
 Note: Without a parameter runs with ``-ND`` (Non destructive).
@@ -27,8 +27,8 @@ Note: Without a parameter runs with ``-ND`` (Non destructive).
 - ``-FDna``: Fully Destructive, however no random apps!
 
 # TheScriptOfChance 2.0\2.5\3.0 Parameters:
-Note: Without a parameter runs with ``-Snake`` (2.5.2+) Others run ``-SafeMode``.
-- ``-Snake``: Runs the snake Game YAY!!! (2.5.2+)
+Note: Without a parameter runs with ``-Snake`` (2.5.2 or later) Others run ``-SafeMode`` ``NS`` is No Snake on startup.
+- ``-Snake``: Runs the snake Game YAY!!! (2.5.2 or later)
 - ``-SafeMode``: Only safe commands are ran, safe to run on main, no commands will disrupt your work!
 - ``-Unsafe``: Runs commands that could potentially be unsafe only! Note not every command is unsafe, but could be unwanted.
 - ``-SemiUnsafe``: Combines SafeMode and Unsafe parameters, no Deathwish commands!
@@ -36,6 +36,7 @@ Note: Without a parameter runs with ``-Snake`` (2.5.2+) Others run ``-SafeMode``
 - ``-DeathWish``: Bye bye Windows Installation (high chance!)
 - ``-EgoDestroyer``: Destroyers your ego with these ego destroying roasts.
 - ``-UselessWeb``: Website URLS that came from the useless web website.
+- ``-TraumatizeJulia`` Commands that will trumatize Julia (not really, but they are funny and could be bad if you don't know what they do!) (3.0 or later)
 - ``-All``: Every command in this script is an option, Run with caution!
 
 
