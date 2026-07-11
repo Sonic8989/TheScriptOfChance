@@ -36,7 +36,7 @@ Note: Without a parameter runs with ``-Snake`` (2.5.2 or later) Others run ``-Sa
 - ``-DeathWish``: Bye bye Windows Installation (high chance!)
 - ``-EgoDestroyer``: Destroyers your ego with these ego destroying roasts.
 - ``-UselessWeb``: Website URLS that came from the useless web website.
-- ``-TraumatizeJulia`` Commands that will trumatize Julia (not really, but they are funny and could be bad if you don't know what they do!) (3.0 or later)
+- ``-TraumatizeJulia`` Commands that will truamatize Julia (not really, but they are funny and could be bad if you don't know what they do!) (3.0 or later)
 - ``-All``: Every command in this script is an option, Run with caution!
 
 
